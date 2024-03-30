@@ -13,7 +13,7 @@ RetiScan leverages a federated learning approach for retinal vessel segmentation
 - **Abnormality Testing and Retinal Image Analysis Interface**
 
 <p align="center">
-  <img src="assets/gif.gif" alt="Retinal Vessel Segmentation" width="200"/>
+  <img src="assets/gif.gif" alt="Retinal Vessel Segmentation" width="300"/>
 </p>
 
 ## About The Project
@@ -50,27 +50,53 @@ This project requires Node.js and Python3 to be installed on your system.
    ```
 2. Install NPM packages for the frontend:
    ```sh
-   cd RetiScan/src
+   cd RetiScan
    npm install
    ```
+
+3. Install dependencies for backend:
+   ```sh
+   cd RetiScan/server
+   pip install -r requirements.txt
+   ```
+
+4. Placing the API_KEYS for Firebase & OpenAI:
+
+    Open the .env file in the project directory (RetiScan) and add the following lines:
+    ```sh
+    REACT_APP_FIREBASE_API_KEY=<Your Firebase API Key>
+    REACT_APP_FIREBASE_AUTH_DOMAIN=<Your Firebase Auth Domain>
+    REACT_APP_FIREBASE_PROJECT_ID=<Your Firebase Project ID>
+    REACT_APP_FIREBASE_STORAGE_BUCKET=<Your Firebase Storage Bucket>
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<Your Firebase Messaging Sender ID>
+    REACT_APP_FIREBASE_APP_ID=<Your Firebase App ID>
+    REACT_APP_FIREBASE_MEASUREMENT_ID=<Your Firebase Measurement ID>
+
+    # OpenAI API Key
+    OPENAI_API_KEY=<Your OpenAI API Key>
+      ```
+    Replace \<Your Firebase API Key> and \<Your OpenAI API Key> with your actual API keys obtained from Firebase and OpenAI.
 
 
 ### Usage
 
-Use the following commands in the project directory to start the application:
+Use the following commands in the project directory to start the application.
 
-- To run the frontend:
-  ```sh
-  npm start
-  ```
-- To predict segmentation:
-  ```sh
-  python3 predict.py
-  ```
-- To classify retinopathy:
-  ```sh
-  python3 classify.py
-  ```
+1. To run the frontend:
+    ```sh
+    cd RetiScan
+    npm start
+   ```
+2. To predict segmentation:
+    ```sh
+    cd RetiScan/server
+    python3 predict.py
+    ```
+3. To classify:
+    ```sh
+    cd RetiScan/server
+    python3 classify.py
+    ```
 
 ## Front end
 
