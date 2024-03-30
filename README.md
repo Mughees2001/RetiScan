@@ -7,8 +7,9 @@
 
 RetiScan leverages a federated learning approach for retinal vessel segmentation.
 ### Key Features:
-- **User Authentication**
-- **Interface for Segmentation**
+- **Retinal Vessel Segmentation**
+- **Diabetic Retinopathy Detection**
+- **Prediction of Other Diseases and Effective Treatments**
 - **Chatbot for Medical Advice**
 - **Abnormality Testing and Retinal Image Analysis Interface**
 
@@ -48,15 +49,14 @@ This project requires Node.js and Python3 to be installed on your system.
    ```sh
    git clone https://github.com/Mughees2001/RetiScan
    ```
-2. Install NPM packages for the frontend:
+2. Navigate to the project directory and install NPM packages for the frontend:
    ```sh
-   cd RetiScan
    npm install
    ```
 
 3. Install dependencies for backend:
    ```sh
-   cd RetiScan/server
+   cd server
    pip install -r requirements.txt
    ```
 
@@ -84,17 +84,12 @@ Use the following commands in the project directory to start the application.
 
 1. To run the frontend:
     ```sh
-    cd RetiScan
     npm start
    ```
-2. To predict segmentation:
+2. To run the servers:
     ```sh
-    cd RetiScan/server
+    cd server
     python3 predict.py
-    ```
-3. To classify:
-    ```sh
-    cd RetiScan/server
     python3 classify.py
     ```
 
