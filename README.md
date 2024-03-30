@@ -75,7 +75,7 @@ This project requires Node.js and Python3 to be installed on your system.
     # OpenAI API Key
     OPENAI_API_KEY=<Your OpenAI API Key>
       ```
-    Replace \<Your Firebase API Key> and \<Your OpenAI API Key> with your actual API keys obtained from Firebase and OpenAI.
+    Replace \<Your Firebase API Key> and \<Your OpenAI API Key> [GPT 4] with your actual API keys obtained from Firebase and OpenAI.
 
 
 ### Usage
