@@ -1,8 +1,9 @@
 
-<div style="display: flex; align-items: center;">
+# RetiScan
+
+<p align="center">
   <img src="assets/Logo.png" alt="RetiScan Logo" width="50" />
-  <h1>RetiScan</h1>
-</div>
+</p>
 
 
 RetiScan leverages a federated learning approach for retinal vessel segmentation.
