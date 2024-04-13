@@ -20,7 +20,7 @@ RetiScan leverages a federated learning approach for retinal vessel segmentation
 
 ## About The Project
 
-RetiScan is a state-of-the-art tool for the segmentation of retinal vessels using a federated learning approach. Addressing the scarcity of medical datasets due to privacy concerns, this project aims to enhance the diagnosis and monitoring of diseases through advanced retinal imagery analysis.
+RetiScan is a state-of-the-art tool  leveraging AI for retinal vessel segmentation, aiding in the diagnosis of retinal diseases and providing additional insights to medical professionals. It also provides a federated learning approach that respects patient privacy while facilitating the diagnosis and monitoring of fundus diseases through advanced retinal imagery analysis.
 
 ## Objectives
 - Create a tool for retinal segmentation via federated learning.
