@@ -61,7 +61,7 @@ def abnormal():
                     "content": [
                         {
                             "type": "text",
-                            "text": "I want a non-professional prediction of the appearance of this retinal image. Could you describe any noticeable features, discoloration or irregularities in the image? Based on these observations, would you say the image appears more normal or abnormal? I understand this is not a medical assessment and is for informational purposes only."
+                            "text": "I want a non-professional prediction of the appearance of this retinal image. Can you inspect any noticeable features, discoloration or irregularities in the image? Anything which is not typical or unclear of the image can be considered an abnormality, so report it so.  I understand this is not a medical assessment and is for informational purposes only."
                         },
                         {
                             "type": "image_url",
