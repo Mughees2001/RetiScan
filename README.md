@@ -6,7 +6,7 @@
 </p>
 
 
-RetiScan leverages a federated learning approach for retinal vessel segmentation.
+RetiScan leverages sophisticated AI methods for advanced retinal analysis.
 ### Key Features:
 - **Retinal Vessel Segmentation**
 - **Diabetic Retinopathy Detection**
